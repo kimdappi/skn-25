@@ -21,3 +21,19 @@ for book, count in book_counts:
         answer_book=book
 
 print(answer_book)
+
+"""
+강사님 코드. 너무 간단하다...
+
+books = {}
+number = int(input())
+
+for _ in range(number):
+    name = input()
+    if name in books:
+        books[name] += 1
+    else:
+        books[name] = 1
+print(sorted(books.items(), key= lambda x : (-x[1], x[0]))[0][0])
+
+"""
