@@ -20,14 +20,15 @@ while running:
             running = False
     screen.fill(SKYBLUE)
 
+##============================== 눈사람 ==============================##
+
     pygame.draw.circle(screen,WHITE,[400,200],80) #좌표, 지름
     pygame.draw.circle(screen,WHITE,[400,350],100) #좌표, 지름
     pygame.draw.rect(screen, RED, [340,249,130,30], 50)
-
     pygame.draw.circle(screen, BLACK, [362, 180],5)
     pygame.draw.circle(screen, BLACK, [432, 180],5)
-
     pygame.draw.circle(screen, BLACK, [400, 200],5)
+##============================== 눈사람 ==============================##
 
 
     x,y= pygame.mouse.get_pos()
